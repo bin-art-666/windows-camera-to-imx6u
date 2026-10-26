@@ -1,0 +1,43 @@
+# Local environment and authentication
+.known_hosts
+.launch.lock
+.stop_requested
+.env
+.env.*
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local build outputs and third-party board/SDK libraries
+build/
+toolchain-libs/
+bin/*
+!bin/.gitkeep
+*.so
+*.so.*
+*.dll
+*.exe
+*.o
+*.obj
+.qmake.stash
+Makefile
+
+# Camera captures and runtime data
+*.log
+*.pid
+*.lock
+latest.jpg
+frame.jpg
+viewer.png
+photos/
+captures/
+status.json
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,2 @@
+# If qrushi already has opencv-contrib-python, reuse it; do not install a second cv2 package.
+opencv-python==4.11.0.86
